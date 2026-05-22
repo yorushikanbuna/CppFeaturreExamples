@@ -67,6 +67,8 @@ int main() {
     decltype(x) z = x + y;  // z的类型精确为int
     std::cout << "z (使用decltype声明): " << z << "\n";
 
+    asdasdasd
+
     // 6. 尾随返回类型函数
     std::cout << "\n尾随返回类型函数:\n";
     auto result = multiply(5, 3.14);
